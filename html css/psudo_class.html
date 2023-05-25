@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>psudo class</title>
+        <style>
+            .p{
+                display: none;
+                border: 2px solid black;
+                width: 200px;
+                height: 200px;
+                background-color: lightblue;
+            }
+            div:hover .p{
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div> cursor over me !!
+            <div class="p"><p>this is psudo class effect</p> </div>
+        </div>
+    </body>
+</html>
